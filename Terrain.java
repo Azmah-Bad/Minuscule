@@ -12,7 +12,7 @@ public class Terrain extends JPanel
     private boolean isRandomlyGenerated;
 
     // nombre de fourmis dans la fourmilière
-    private final static int NUMBER_OF_ANTS = 20;
+    private final static int NUMBER_OF_ANTS = 25;
     
     // nombre de cases nourriture initialement dans le cas ou génération aléatoire de terrain
     public final int RAND_NOURRITURE = 20;
@@ -24,7 +24,7 @@ public class Terrain extends JPanel
     
     
     // quantité initiale de nourriture placée dans une case nourriture 
-    public final int INIT_FOOD_QUANTITY_PER_CELL = 200;
+    public final int INIT_FOOD_QUANTITY_PER_CELL = 1000;
     
     private int fileFoodQuantity; // quantité de cases "nourriture" dans le fichier 
     
